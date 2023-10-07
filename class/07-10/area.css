@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "item-1 item-1 item-1"
+        "item-2 item-3 item-3"
+        "item-2 item-3 item-3";
+}
+
+.item-1 {
+    grid-area: item-1;
+    background-color: red;
+}
+
+.item-2 {
+    grid-area: item-2;
+    background-color: aqua;
+}
+
+.item-3 {
+    grid-area: item-3;
+    background-color: orchid;
+}
