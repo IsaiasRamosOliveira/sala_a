@@ -1,0 +1,12 @@
+.bloco2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.item7 {
+    grid-area: 1/1/1/3;
+}
+.item13 {
+    grid-area: 3/2/3/4;
+}

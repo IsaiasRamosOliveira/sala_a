@@ -19,7 +19,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
   align-items: center;
 }
 
@@ -32,7 +31,5 @@ body {
 
 .item {
   background-color: aquamarine;
-  width: 70px;
-  height: 70px;
   margin: 5px;
 }
